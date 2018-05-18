@@ -14,15 +14,21 @@ body {
     margin-right: 40%;
     margin-left: 40%;
     border-radius: 15px;
+    position: absolute;
+    top: 160px;
+
 
 }
 
 #title{
+    width: 40%;
     text-align: center;
     font-size: 100px;
     font-weight: bolder;
     color: darkslategray;
     font-family: Impact, Charcoal, sans-serif;
+    position: absolute;
+    right: 30%;
 }
 #signin{
     height: 30px;
@@ -48,4 +54,32 @@ body {
 #cloud{
     height: 109px;
     width:200px;
+    position: fixed;
+    left: 43%;
+    top: 200px;
+    z-index: 120;
+}
+#mask{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 120%;
+    height: 100%;
+    background-color: dimgray;
+    z-index: 500;
+    opacity: .5;
+
+}
+#enter{
+    position: absolute;
+    z-index: 501;
+    border: double;
+    height:30%;
+    width: 40%;
+    background-color: antiquewhite;
+    left:30%;
+    top:35%;
+    border-radius: 25px;
+
+
 }
