@@ -26,3 +26,5 @@ function showenters(){
 
 var Listofkinds=["Mexican","Fast Food","Thai","Indian", "American", "Burger", "Pizza", "Chinese", "Italian", "Japanese", "Sandwhich", "Sushi",
 "Breakfast", "Desert", "Bakery"];
+
+var ate=[];
