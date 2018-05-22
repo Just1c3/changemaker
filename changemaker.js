@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
     $(".hide").hide();
     $("#calculate").on("click",function(){
@@ -23,4 +24,5 @@ function showenters(){
     $("#enter").show();
 }
 
-var Listofkinds=["Mexican","Fast Food","Thai","Indian",];
+var Listofkinds=["Mexican","Fast Food","Thai","Indian", "American", "Burger", "Pizza", "Chinese", "Italian", "Japanese", "Sandwhich", "Sushi",
+"Breakfast", "Desert", "Bakery"];
