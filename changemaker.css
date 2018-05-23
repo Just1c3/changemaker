@@ -29,6 +29,7 @@ body {
     font-family: Impact, Charcoal, sans-serif;
     position: absolute;
     right: 30%;
+
 }
 #signin{
     height: 30px;
@@ -80,7 +81,7 @@ body {
     left:30%;
     top:35%;
     border-radius: 25px;
-
+    text-align: center;
 
 }
 .dropbtn {
@@ -122,4 +123,9 @@ body {
     position: absolute;
     top:30%;
     left:30%;
+}
+
+#entertable{
+    margin: 0 auto;
+    margin-top:20px;
 }
