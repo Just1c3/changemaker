@@ -16,10 +16,15 @@ $(document).ready(function(){
         $("#email").attr("placeholder","Email");
         $("#password").attr("placeholder","Password");
         $("#entername").text("Sign In");
+        $("#enterbutton").data("1");
     });
     $("#createacc").on("click", function(){
+        $("#enterbutton").data("2");
         showenters();
+    });
 
+    $("#enterbutton").on("click",function(){
+        var amount=$()
     });
 
 });
