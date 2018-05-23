@@ -15,6 +15,7 @@ $(document).ready(function(){
         showenters();
         $("#email").attr("placeholder","Email");
         $("#password").attr("placeholder","Password");
+        $("#entername").text("Sign In");
     });
     $("#createacc").on("click", function(){
         showenters();
