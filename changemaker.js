@@ -36,7 +36,7 @@ $(document).ready(function(){
             adduser(email,password);
         }
         $("#mask").hide();
-        // $("#enter").hide();
+        $("#enter").hide();
     });
 
 });
