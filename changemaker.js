@@ -20,11 +20,21 @@ $(document).ready(function(){
     });
     $("#createacc").on("click", function(){
         $("#enterbutton").data("2");
+        $("#email").attr("placeholder","Email");
+        $("#password").attr("placeholder","Password");
+        $("#entername").text("Create Account");
         showenters();
     });
 
     $("#enterbutton").on("click",function(){
-        var amount=$()
+        var amount=$("#enterbutton").data();
+        var email=$("#email").text();
+        var password=$("#password").text();
+        if(amount==1){
+            getuser(email);
+        }else{
+            adduser(email,password);
+        }
     });
 
 });
